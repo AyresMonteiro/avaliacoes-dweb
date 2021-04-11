@@ -1,0 +1,93 @@
+.header {
+  display: block;
+  border-bottom: 2px solid black;
+
+  width: 100%;
+}
+
+.header > .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.header > .title > h1 {
+  font-size: 30pt;
+
+  padding: 10px;
+  padding-top: 25px;
+}
+
+.header > .title > h1 > strong {
+  font-size: 40pt;
+}
+
+.header > .title > h2 {
+  font-size: 12pt;
+  font-weight: normal;
+}
+
+.img-pequena {
+  width: 15px;
+  height: 15px;
+}
+
+.header > .opcoes {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+  margin-left: 30%;
+  width: 40%;
+}
+
+.header > .opcoes > a {
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+  height: 100%;
+  cursor: pointer;
+
+  transition: 0.75s;
+}
+
+.header > .opcoes > a:hover {
+  background-color: #CCC;
+}
+
+.header > .opcoes > form {
+  display: flex;
+  flex-direction: row;
+
+  height: 100%;
+  width: 50%;
+
+  padding: 5px;
+  margin-left: 5px;
+
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.header > .opcoes > form > input[type="text"] {
+  height: 100%;
+  width: 80%;
+  outline-style: none;
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+  font-size: 14pt;
+}
+
+.header > .opcoes > form > button[type="submit"] {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}

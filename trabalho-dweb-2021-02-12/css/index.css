@@ -1,0 +1,23 @@
+.noticias {
+  align-self: center;
+  width: 50%;
+  height: 100%;
+}
+
+.noticias > .noticia {
+  display: block;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 5px;
+  box-shadow: 0px 1px 2px black;
+}
+
+.noticias > .noticia > h3 {
+  padding-bottom: 1px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.noticias > .noticia > h4 {
+  font-weight: normal;
+}
